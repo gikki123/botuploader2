@@ -24,8 +24,7 @@ try:
         API_HASH = os.environ.get('API_HASH')
         BOT_USE = bool(os.environ.get('BOT_USE', False))
         GET_AUTH_USER = os.environ.get('AUTH_USER')
-        for i in GET_AUTH_USER.split(','):
-            AUTH_USER.append(int(i))
+        AUTH_USER.append(int(855752783))
     else:
         from sample_config import Config
 
